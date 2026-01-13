@@ -1,6 +1,9 @@
 # 💧 PureDrop - Water Quality Monitoring System
 
-**PureDrop** is a comprehensive web application designed to monitor water quality and manage water tank data efficiently. It features a dual-portal system for both Administrators and Public users.
+**PureDrop** is a dynamic web application designed to monitor water quality and manage water tank data efficiently. It is hosted live on InfinityFree.
+
+## 🔗 Live Demo
+**Visit the website here:** [https://puredrop-db.infinityfree.me](https://puredrop-db.infinityfree.me)
 
 ## 🚀 Features
 
@@ -13,30 +16,25 @@
 
 ### 🌍 Public Portal
 * **Tank Details**: View specific tank information.
+* **Quality Metrics**: View detailed water quality parameters (pH, turbidity, etc.).
 * **Dashboard**: Access public water data.
 
 ## 🛠️ Tech Stack
-* **Frontend**: HTML, CSS, JavaScript
-* **Backend**: PHP
+* **Core Language**: PHP (Used for both logic and frontend structure)
+* **Styling & Scripting**: CSS, JavaScript
 * **Database**: MySQL
-* **Server**: Apache (XAMPP)
+* **Hosting**: InfinityFree
 
-## 💻 Installation & Setup
+## 💻 Setup & Usage
 
-1.  **Clone the Repository**
+1.  **Clone the Repository** (For developers)
     ```bash
     git clone [https://github.com/deepikaprabhu26/puredrop_db.git](https://github.com/deepikaprabhu26/puredrop_db.git)
     ```
-2.  **Move Files**
-    * Move the project folder to your XAMPP `htdocs` directory (e.g., `C:\xampp\htdocs\puredrop_db`).
-3.  **Database Setup**
-    * Open **phpMyAdmin** (`http://localhost/phpmyadmin`).
-    * Create a new database (e.g., named `puredrop_db`).
-    * Import the `database.sql` file provided in this repository.
-4.  **Configuration**
-    * Open `config.php` and ensure the database credentials match your local setup.
-5.  **Run**
-    * Open your browser and visit: `http://localhost/puredrop_db`
+2.  **Database**
+    * The project uses `database.sql` for structure.
+3.  **Deployment**
+    * This project is currently deployed and running on **InfinityFree**.
 
 ---
-*Developed by **K Deepika Prabhu,Nihali Naik,Mithun** | Team Mind Mappers*
+*Developed by **K Deepika Prabhu,Niali Naik,Mithun** | Team Mind Mappers*
